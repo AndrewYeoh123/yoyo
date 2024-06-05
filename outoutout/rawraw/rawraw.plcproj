@@ -3,28 +3,22 @@
   <PropertyGroup>
     <FileVersion>1.0.0.0</FileVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{38609add-9ad6-4f17-99a7-35b3b2f84590}</ProjectGuid>
+    <ProjectGuid>{e8c7f68d-d8ea-4faf-896f-a3c5338596b3}</ProjectGuid>
     <SubObjectsSortedByName>True</SubObjectsSortedByName>
     <DownloadApplicationInfo>true</DownloadApplicationInfo>
     <WriteProductVersion>true</WriteProductVersion>
     <GenerateTpy>false</GenerateTpy>
-    <Name>Itsanewproject</Name>
+    <Name>rawraw</Name>
     <ProgramVersion>3.1.4024.0</ProgramVersion>
-    <Application>{d364ed6e-07d9-4f09-ab7e-7301c2daf0a4}</Application>
-    <TypeSystem>{938a9ffb-a846-4828-9b2d-ea6b52d683aa}</TypeSystem>
-    <Implicit_Task_Info>{095e72fd-08d4-430b-af4d-a0259b14e17e}</Implicit_Task_Info>
-    <Implicit_KindOfTask>{48480525-2256-4861-9c0a-3c933acf9a36}</Implicit_KindOfTask>
-    <Implicit_Jitter_Distribution>{d1b65216-63bf-44c4-a04d-00f97f23c27b}</Implicit_Jitter_Distribution>
-    <LibraryReferences>{2899ac01-279a-4e68-8e69-3af6692627af}</LibraryReferences>
+    <Application>{d4475e75-62d5-4037-a6da-1486912ed93d}</Application>
+    <TypeSystem>{3814bbf8-6a62-46b2-933d-58f8e4da5903}</TypeSystem>
+    <Implicit_Task_Info>{718ddc6f-f14f-4b52-8da7-5c4916aaa2ec}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{7355bd49-76c2-40ed-88dc-d3797e851cc7}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{ba406089-c1df-4809-916a-164a78ead6cb}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{6365577e-5131-419d-8415-a0647562fbf5}</LibraryReferences>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PlcTask.TcTTO">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\Lamp.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\Light.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\MAIN.TcPOU">
@@ -54,8 +48,8 @@
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
-        <Data>
-          <o xml:space="preserve" t="OptionKey">
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
       <v n="Name">"&lt;ProjectRoot&gt;"</v>
       <d n="SubKeys" t="Hashtable" ckt="String" cvt="OptionKey">
         <v>{192FAD59-8248-4824-A8DE-9177C94C195A}</v>
@@ -82,13 +76,13 @@
       </d>
       <d n="Values" t="Hashtable" />
     </o>
-        </Data>
-        <TypeList>
-          <Type n="Hashtable">System.Collections.Hashtable</Type>
-          <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
-          <Type n="String">System.String</Type>
-        </TypeList>
-      </XmlArchive>
+  </Data>
+  <TypeList>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
     </PlcProjectOptions>
   </ProjectExtensions>
 </Project>
